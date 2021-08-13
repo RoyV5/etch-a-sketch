@@ -1,0 +1,18 @@
+body {
+    background-color: #BB1C21;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main-container {
+    margin: 0px auto;
+    width: max-content;
+    background-color: transparent;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(10, 10px);
+    grid-template-rows: repeat(10, 10px);
+}
+
+#main-container div {
+    background-color: white;
+}
