@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
 body {
-    background-color: darkred;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightblue;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(32, 32, 32);
 }
 
-#clear-button {
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+button {
     display: block;
     width: 100px;
     background-color: aliceblue;
 }
 
-#resize-button {
-    display: block;
-    width: 100px;
-    background-color: aliceblue;
+#main-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
 }
-
 
 #grid-container {
     margin: 0px auto;
