@@ -1,5 +1,5 @@
 body {
-    background-color: #BB1C21;
+    background-color: darkred;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 
-#main-container {
+#grid-container {
     margin: 0px auto;
     width: max-content;
     background-color: transparent;
@@ -25,9 +25,10 @@ body {
     border-collapse: true;
     grid-template-columns: repeat(10, 50px);
     grid-template-rows: repeat(10, 50px);
+    background-color: white;
 }
 
-#main-container div {
+#grid-container div {
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
